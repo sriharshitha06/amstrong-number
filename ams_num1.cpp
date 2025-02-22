@@ -13,7 +13,7 @@ bool isArmstrong(int num) {
 }
 int main() {
     int n;
-  cin>>n
+  cin>>n;
     if (isArmstrong(n)) {
         cout << n << " is an Armstrong number." << endl;
     } else {
